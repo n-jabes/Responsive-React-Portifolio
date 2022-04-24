@@ -42,10 +42,11 @@ header{
 
 .me{
     background: linear-gradient(var(--color-primary), transparent) ;
-    width: 30%;
+    width: 22rem;
     height: 30rem;
     position: absolute;
-    left: 35%; 
+    left: 50%;
+    transform: translateX(-50%); 
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -67,14 +68,14 @@ header{
 
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
-    .header{
+    header{
         height: 68vh;
     }
 }
 
 /* SMALL DEVICES */
 @media screen and (max-width: 600px){
-    .header{
+    header{
         height: 100vh;
     }
     .header__socials,

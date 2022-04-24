@@ -19,7 +19,7 @@ function About() {
 
         <div className="about__content">
           <div className="about__cards">
-          <article className='about__card'>
+            <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>3+ Years Working</small>
@@ -37,6 +37,11 @@ function About() {
               <small>80+ Completed</small>
             </article>
           </div>
+
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatum dolore nam voluptates quam, sed nemo repudiandae sint? Quo, perspiciatis? Nihil modi eum porro recusandae, voluptates aliquid mollitia? Voluptate, quod.</p>
+
+          <a href="#contact" className='btn btn-primary'>Let's talk</a>
         </div>
       </div>
     </section>
