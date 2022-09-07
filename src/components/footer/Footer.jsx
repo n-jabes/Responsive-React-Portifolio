@@ -26,7 +26,8 @@ function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved</small>
+        <small>&copy; 
+          Nshuti Jabes. All rights reserved</small>
       </div>
     </footer>
   )
